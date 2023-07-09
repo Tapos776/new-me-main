@@ -128,6 +128,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 .banner{
     background-image:  url("../images/gradient2.png") ,url("../images/watch.png");
@@ -149,7 +150,7 @@
     margin-left: 20px;
 }
 .footer{
-    background-color: black;
+    background-color: rgb(73, 72, 72);
     width: 1500px;
     height: 550px;
     display: flex;
@@ -179,7 +180,7 @@
     color: white;
     padding: 20px;
     border-radius: 10px;
-    background-color: black;
+    background-color: rgb(73, 72, 72);
 }
 .btn4{
     background-color: #0315b8;
@@ -194,4 +195,119 @@
 .footer-logos{
     display: flex;
     gap: 20px;
+}
+.boxs{
+    margin-bottom: 40px;
+}
+.box11{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 0px 6px 30px 0px #0e0303;
+}
+.box12{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 0px 6px 30px 0px #0e0303;
+}
+
+
+.box1{
+    display: flex;
+    gap: 14px;
+    justify-content: right;
+    margin-top: 12%;
+    margin-right: 20px;
+}
+
+.box21{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 0px 6px 30px 0px #0e0303;
+
+}
+.box22{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 0px 6px 30px 0px #0e0303;
+
+}
+.box2{
+    display: flex;
+    gap: 14px;
+    justify-content: right;
+    margin-top: 1%;
+    margin-right: 20px;
+}
+.box1 img{
+    padding: 40%;
+}
+.box2 img{
+    padding: 40%;
+}
+.box22 img{
+    padding: 30%;
+}
+.mid-logo{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    align-items: center;
+    
+}
+.mid-logo1{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 100px;
+    box-shadow: 0px 6px 30px 0px #0e0303;
+}
+.mid-logo2{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(168, 15, 15, 0.144);
+    border-radius: 100px;
+    box-shadow: 0px 6px 30px 0px #0a0303;
+}.mid-logo3{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 100px;
+    box-shadow: 0px 6px 30px 0px #0e0303;
+}
+.mid-logo4{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.582);
+    border-radius: 100px;
+    box-shadow: 0px 6px 30px 0px #0d0e0c;
+}
+.mid-logo4 img{
+    margin-left: 70px;
+    margin-top: 30px; 
+}
+.mid-logo2 img{
+    margin-left: 70px;
+    margin-top: 30px; 
+}
+.njs{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.mid-logo1 img{
+    margin-left: 70px;
+    margin-top: 30px; 
+}
+.mid-logo3 img{
+    margin-left: 70px;
+    margin-top: 30px; 
 }
